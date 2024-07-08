@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Avaliação Frontend da IN10 - Visão Geral do Projeto
 
-## Getting Started
+Este é meu projeto de avaliação frontend da IN10, que consiste em uma página feita em Next.js ou React.js capaz de utilizar o Tableau Embedded API como dashboard, gerando interação e visualização com o tableau e incluindo botões para exportá-lo em CSV e PDF. 
 
-First, run the development server:
+## Melhorias de Design e Funcionalidades Adicionadas
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- **Layout Responsivo:** O design foi otimizado para garantir uma experiência consistente em diferentes dispositivos e tamanhos de tela.
+  
+- **Estilo Visual Aprimorado:** A estética geral da página foi melhorada com o uso de cores mais suaves e uma tipografia mais legível.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Componentização:** Componentes reutilizáveis foram implementados para promover uma estrutura de código mais limpa e manutenível.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Integração de Gráficos Interativos:** Gráficos e visualizações foram incorporados para tornar os dados mais acessíveis e informativos.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Executando o Frontend
 
-## Learn More
+1. Clone o repositório para o seu ambiente local.
+2. Instale os pacotes necessários: `yarn`
+3. Inicie o servidor de desenvolvimento: `yarn dev`
 
-To learn more about Next.js, take a look at the following resources:
+### Testes Unitários
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Execute os testes: `yarn test`
